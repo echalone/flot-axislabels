@@ -369,7 +369,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             stransforms['-ms-transform'] += stdTranslate;
         }
         if (degrees != 0) {
-            var rotation = degrees/90;
+            var rotation = degrees / 90;
             var stdRotate = ' rotate(' + degrees + 'deg)';
             stransforms['-moz-transform'] += stdRotate;
             stransforms['-webkit-transform'] += stdRotate;
